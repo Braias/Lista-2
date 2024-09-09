@@ -1,5 +1,4 @@
-def exercicio1(*args: tuple) -> int|float:
-    vector =  args
+def exercicio1(vector: tuple) -> int|float:
     list_of_values = []
     for value in vector:
         try:
